@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Andrea Liu</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="assets/css/indexstyle.css" />
+	<script src="assets/js/jquery-1.9.1.js"></script>
+	<script src="assets/js/indexscript.js"></script>
+	<script src="assets/js/jquery.waypoints.min.js"></script>
+</head>
+<body>
+	<div id="timeline-section">
+		<div id="timeline-wrapper">
+			<div id="spine"></div>
+<!-- 			<div id="active-spine"></div> -->
+			<div class="nav-item" id="home-item">
+				<img class="img-scaled" src="assets/img/home_icon.svg" />
+				<div class="nav-text" id="home-text">HOME</div>
+			</div>
+			<div class="nav-item" id="about-item">
+				<img class="img-scaled" src="assets/img/about_icon.svg" />
+				<div class="nav-text" id="about-nav-text">ABOUT</div>
+			</div>
+			<div class="nav-item" id="projects-item">
+				<img class="img-scaled" src="assets/img/projects_icon.svg" />
+				<div class="nav-text" id="projects-nav-text">PROJECTS</div>
+			</div>
+			<div class="nav-item" id="contact-item">
+				<img class="img-scaled" src="assets/img/contact_icon.svg" />
+				<div class="nav-text" id="contact-nav-text">CONTACT</div>
+			</div>
+			<a href="assets/img/webResume.pdf">
+				<div class="nav-item" id="resume-item">
+					<img class="img-scaled" src="assets/img/resume_icon.svg" />
+					<div class="nav-text" id="resume-nav-text">RESUME</div>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div id="main-section">
+		<div class="view" id="view1">
+			<div id="view1-section">
+				<div id="view1-decorator"><img class="view1-image" src="assets/img/headerdecoration.jpg"/></div>
+				<div id="view1-text">
+					<div id="name-title">ANDREA LIU</div>
+					<div id="name-subtitle">Computer Science Undergraduate Student, Class of 2018</div>
+					<div id="about-text">
+						Welcome to my personal website! I appreciate your taking the time to visit.
+						<p>
+							I am an aspiring computer scientist with a passion for coding, website design,
+						and aquiring new knowledge. To pursue these interests, I am working my way towards a B.A. in Computer Science at UC Berkeley, where I am currently a
+						sophomore.
+						</p>
+					</div>
+				</div>
+				<div id="bubble-section">
+					<div class="bubble" id="about-bubble">
+						<div class="bubble-text" id="about-bubble-text">A B O U T</div>
+						<div class="bubble-stem"></div>
+					</div>
+					<div class="bubble" id="projects-bubble">
+						<div class="bubble-text" id="projects-text">P R O J E C T S</div>
+						<div class="bubble-stem"></div>
+					</div>
+					<div class="bubble" id="contact-bubble">
+						<div class="bubble-text" id="contact-text">C O N T A C T</div>
+						<div class="bubble-stem"></div>
+					</div>
+					<a href="assets/img/webResume.pdf">
+						<div class="bubble" id="resume-bubble">
+							<div class="bubble-text" id="resume-text">R E S U M E</div>
+							<div class="bubble-stem"></div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="view" id="view2">
+			<div class="top-decorator" id="view2-top-decorator"></div>
+			<div id="view2-section">
+				<div id="about-title">ABOUT ME</div>
+				<div id="about-separator"></div>
+				<div id="about-decorator"></div>
+				<div id="about-section-text">
+					<p>
+						Hello, all! The name's Andrea Liu, and I am an eighteen year-old student who originally came from Bellevue, Washington, but has spent her recent years in California. 
+					</p>
+					<p>
+						My primarily goals focus on expanding my academic knowledge of computer science through class work as well as my field experience by working on personal projects and getting involved with internships. 
+					</p>
+					<p>
+						When I have the time, I like to go swimming, hike up local hills, take naps, and occasionally game. I also love keeping up with cooking shows, traveling, and dabbling in graphic design.
+					</p>
+				</div>
+				<div class="about-picture-wrapper" id="about-wrapper1">
+					<div id="about-picture"><img id="photo" src="assets/img/photo.JPG" /></div>
+				</div>
+				<div class="about-picture-wrapper" id="about-wrapper2">
+					<div id="about-picture2"><img id="photo2" src="assets/img/aboutimage.jpg" /></div>
+				</div>
+				<div class="about-picture-wrapper" id="about-wrapper3">
+					<div id="about-picture3"><img id="photo3" src="assets/img/ucberkeley.jpg" /></div>
+				</div>
+				<div class="about-connector" id="connector1"></div>
+				<div class="about-connector" id="connector2"></div>
+				<div class="about-connector" id="connector3"></div>
+			</div>
+		</div>
+		<div class="view" id="view3">
+			<div class="top-decorator" id="view3-top-decorator"></div>
+			<div id="view3-section">
+				<div id="projects-title">MY PROJECTS</div>
+				<div id="projects-description">RECENT WORKS...</div>
+				<div id="projects-container">
+					<div class="project" id="project1">
+						<div class="project-photo">
+							<img id="project1-photo" src="assets/img/proj1.png"/>
+						</div>
+						<div class="project-text">
+							<div class="project-title">PERSONAL WEBSITE</div>
+							<div class="project-date">May 2015</div>
+						</div>
+						<div class="project-desc" id="project1-desc">
+							Summer project conducted as an exploration of front-end web design using HTML, CSS, and Javascript/jQuery. Contains sections for biographic information, projects, and a resume link. 
+						</div>
+					</div>
+					<div class="project" id="project2">
+						<div class="project-photo">
+							<img id="project2-photo" src="assets/img/comingsoon.jpg"/>
+						</div>
+						 <div class="project-text">
+							<div class="project-title">PROJECT 2</div>
+							<div class="project-date">May 2015</div>
+						</div>
+						<div class="project-desc" id="project2-desc">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+						</div>
+					</div>
+					<div class="project" id="project3">
+						<div class="project-photo">
+							<img id="project3-photo" src="assets/img/comingsoon.jpg"/>
+						</div>
+						<div class="project-text">
+							<div class="project-title">PROJECT 3</div>
+							<div class="project-date">May 2015</div>
+						</div>
+						<div class="project-desc" id="project3-desc">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+						</div>
+					</div>
+					<div class="project" id="project4">
+						<div class="project-photo">
+							<img id="project4-photo" src="assets/img/comingsoon.jpg"/>
+						</div>
+						<div class="project-text">
+							<div class="project-title">PROJECT 4</div>
+							<div class="project-date">May 2015</div>
+						</div>
+						<div class="project-desc" id="project4-desc">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+						</div>
+					</div>
+				</div>
+				<a href="" id="see-more">SEE MORE</a>
+			</div>
+		</div>
+		<div class="view" id="view4">
+			<div class="top-decorator" id="view4-top-decorator"></div>
+			<div id="view4-section">
+				<div id="contact-title">CONTACT LINKS</div>
+				<div id="contact-section">
+					<a href="mailto:andrealiu@eberkeley.edu">
+						<div class="contact-bubble" id="email-bubble">
+							<div class="contact-stem"></div>
+							<div class="contact-bubble-main">
+								<img class="contact-icon" id="email-icon" src="assets/img/email_icon.svg"/>
+							</div>
+							<div class="contact-text">EMAIL</div>
+						</div>
+					</a>
+					<div class="contact-bubble" id="github-bubble">
+						<div class="contact-stem" id="github-stem"></div>
+						<div class="contact-bubble-main">
+							<img class="contact-icon" id="github-icon" src="assets/img/github.svg"/>
+						</div>
+						<div class="contact-text">GITHUB</div>
+					</div>
+					<div class="contact-bubble" id="linkedin-bubble">
+						<div class="contact-stem"></div>
+						<div class="contact-bubble-main">
+							<img class="contact-icon" id="linkedin-icon" src="assets/img/linkedin_icon.svg"/>
+						</div>
+						<div class="contact-text">LINKEDIN</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="view" id="view5">
+			<div class="separator" id="fourth-separator"></div>
+			<div class="top-decorator" id="view5-top-decorator"></div>
+			<div id="view5-section">
+				<div id="resume-title">MY RESUME</div>
+				<div id="resume-download">
+					<div class="resume-download-stem" id="left-stem"></div>
+					<div class="resume-download-stem" id="right-stem"></div>
+					<a href="assets/img/webResume.pdf">
+						<img class="download-icon" id="resume-download-icon" src="assets/img/download_icon.svg"/>
+					</a> 
+				</div>
+			</div> -->
+		</div>
+		<div id="footer">
+			<div id="footer-text">Copyright 2015 - Andrea Liu</div>
+		</div>
+	</div>
+</body>
+</html>

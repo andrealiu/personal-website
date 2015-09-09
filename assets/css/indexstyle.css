@@ -1,0 +1,818 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+#main-section {
+    background-color: #eee8e2;
+    z-index: 1;
+    width: 90%;
+    position: relative;
+    left: 10%;
+    height: 100%;
+    -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+div#view1 {
+    width: 100%;
+    height: 750px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.13);
+}
+
+div#name-title {
+    font-size: 48px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #762323;
+}
+
+div#name-subtitle {
+    font-family: "Roboto";
+    font-weight: lighter;
+    margin-bottom: 36px;
+}
+
+div#welcome-text {
+    font-family: "Lora";
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+
+div#about-text {
+    width: 700px;
+    background-color: rgba(249, 247, 245, 1);
+    line-height: 1.5;
+    margin: 0 auto;
+    color: black;
+    font-family: "Lato";
+    height: 150px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    z-index: 2;
+    position: relative;
+}
+
+div#bubble-section {
+    margin-top: 48px;
+    position: relative;
+    top: 150px;
+    z-index: 10;
+}
+
+#about-bubble {
+    background-color: #F49AAF;
+    top: 0px;
+}
+
+#active-about {
+    transition: 2s;
+    top: -100px;
+}
+
+.bubble {
+    z-index: 2;
+    border-radius: 100px;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    margin-left: 12px;
+    margin-right: 12px;
+    -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.13);
+    cursor: pointer;
+     position: relative; 
+    transition: 1.5s;
+    moz-transition: 1.5s;
+}
+
+.bubble:hover {
+    letter-spacing: 1px;
+    transition: 0.5s;
+    moz-transition: 0.5s;
+    font-style: bold;
+}
+
+.bubble-text {
+    position: relative;
+    top: 65px;
+    font-family: "Lato";
+    font-weight: bold;
+}
+
+div#projects-bubble {
+    background-color: #95b0d8;
+    top: 0px;
+}
+
+div#view1-section {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #eee8e2;
+    padding-top: 48px;
+    overflow: hidden;
+    height: 100%;
+    z-index: 0;
+}
+
+div#projects-text {
+    color: rgb(7, 19, 36);
+}
+
+div#contact-bubble {
+    background-color: rgb(180, 204, 179);
+    top: 0px;
+}
+
+div#contact-text {
+    color: rgb(21, 43, 21);
+}
+
+div#resume-bubble {
+    background-color: rgb(236, 192, 143);
+    top: 0px;
+}
+
+div#resume-text {
+    color: rgb(68, 18, 7);
+}
+
+div#about-bubble-text {
+    color: rgb(44, 6, 6);
+}
+
+div#view1-text {
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.bubble-stem {
+    width: 5px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    background-color: rgb(119, 59, 23);
+    z-index: 1;
+    top: 131px;
+}
+
+div#timeline-section {
+    z-index: 2;
+    position: fixed;
+    width: 10%;
+    background-image: url('../img/confectionary.png');
+    height: 100%;
+}
+
+div#spine {
+    width: 4px;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(79, 36, 33);
+    left: 10%;
+}
+
+.nav-item {
+    position: fixed;
+    border: 3.5px solid rgb(79, 36, 33);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 60px;
+    -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
+    text-align: center;
+    background-color: white;
+    right: 87.5%;
+}
+
+div#home-item {
+    top: 8%;
+}
+
+img.img-scaled {
+    height: 70%;
+    position: relative;
+    top: 6px;
+}
+
+div#about-item {
+    top: 26%;
+}
+
+div#contact-item {
+    top: 62%;
+}
+
+div#resume-item {
+    top: 80%;
+}
+div#projects-item {
+    top: 44%;
+}
+
+div#timeline-wrapper {
+    height: 1000px;
+    width: 20%;
+}
+
+div#view2 {
+    background-image: url('../img/agsquare2.png');
+    background-color: rgb(255, 252, 252);
+    height: 800px;
+    padding-top: 100px;
+}
+
+.view {
+    position: relative;
+    height: 768px;
+    
+    width: 100%;
+}
+
+div#first-separator {
+    width: 100%;
+    height: 2px;
+}
+
+div#view2-section {
+    width: 1024px;
+    margin: 0 auto;
+    z-index: 3;
+    position: relative;
+    height: 768px;
+    top: 40px;
+}
+
+div#about-title {
+    font-family: "Roboto";
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -90px;
+    left: 120px;
+    letter-spacing: 7px;
+    font-weight: lighter;
+}
+
+div#about-separator {
+    height: 5px;
+    border-radius: 5px;
+    width: 200px;
+    position: relative;
+    background-color: rgb(244, 154, 175);
+    left: 72px;
+    top: -24px;
+    margin-bottom: 48px;
+    opacity: 0;
+}
+
+div#about-section-text {
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    font-family: "Lato";
+    line-height: 1.5;
+    background-color: rgb(237, 231, 232);
+    padding: 26px;
+    border-radius: 10px;
+    top: 36px;
+    position: relative;
+    left: 60px;
+    z-index: 2;
+    /* border: 3px solid white; */
+    /* -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.14); */
+}
+
+.about-picture-wrapper {
+    display: inline-block;
+    z-index: 2;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    border-radius: 250px;
+    border: 4px solid rgb(255, 255, 255);
+    position: absolute;
+    -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.14);
+}
+
+div#view2-top-decorator {
+    background-color: rgb(84, 22, 26);
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+}
+
+img.view1-image {
+    opacity: 0.2;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 110%;
+}
+
+div#view1-decorator {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.13);
+}
+
+div#about-picture {
+    position: abso;
+}
+
+img#photo {
+    height: 50%;
+    width: 100%;
+    position: relative;
+}
+
+div#about-wrapper1 {
+    top: 200px;
+    left: 500px;
+    height: 300px;
+    -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.55);
+    border: 7px solid rgb(255, 255, 255);
+    width: 300px;
+}
+
+img#photo2 {
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+
+div#about-wrapper2 {
+    left: 860px;
+    top: 130px;
+}
+
+div#about-wrapper3 {
+    left: 830px;
+    top: 490px;
+}
+
+img#photo3 {
+    width: 150px;
+    height: 150px;
+}
+
+.about-connector {
+    position: absolute;
+    height: 6px;
+    background-color: rgb(222, 174, 174);
+    z-index: 0;
+}
+
+div#connector1 {
+    width: 200px;
+    top: 365px;
+    left: 400px;
+}
+
+div#connector2 {
+    left: 760px;
+    top: 480px;
+    width: 120px;
+    transform: rotate(40deg);
+}
+
+div#connector3 {
+    width: 150px;
+    top: 280px;
+    left: 750px;
+    transform: rotate(-35deg);
+}
+
+.top-decorator {
+    position: relative;
+    width: 100%;
+    height: 130px;
+    -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.13);
+}
+
+div#view3-top-decorator {
+    background-color: rgb(16, 29, 47);
+}
+
+div#projects-title {
+    font-family: "Roboto";
+    font-size: 36px;
+    position: relative;
+    top: -80px;
+    letter-spacing: 7px;
+    font-weight: lighter;
+    left: 132px;
+    color: rgb(255, 255, 255);
+}
+
+div#view3-section {
+    width: 1024px;
+    height: 768px;
+    position: relative;
+    margin: 0 auto;
+}
+
+div#view3 {
+    height: 800px;
+    width: 100%;
+    background-image: url('../img/agsquare2.png');
+    z-index: 3;
+    display: block;
+}
+
+div#second-separator {
+    height: 3px;
+}
+
+div#projects-description {
+    font-family: "Lato";
+    font-size: 24px;
+    text-align: center;
+    color: rgb(35, 60, 97);
+    width: 500px;
+    margin: 0 auto;
+    /* background-color: rgb(224, 231, 240); */
+    height: 48px;
+    line-height: 48px;
+    border-radius: 10px;
+    letter-spacing: 7px;
+    /* border: 3px solid white; */
+    /* -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.13); */
+    top: 24px;
+    position: relative;
+}
+
+div#projects-container {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    top: 96px;
+}
+
+.project {
+    display: inline-block;
+    overflow: hidden;
+    height: 250px;
+    width: 218px;
+    margin-left: 15px;
+    margin-right: 15px;
+    -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.13);
+    border: 1px white solid;
+    border-radius: 5px;
+}
+
+a#see-more {
+    position: absolute;
+    top: 520px;
+    right: 48px;
+    text-decoration: none;
+    font-family: "Lato";
+    border: 3px solid #A2AAB5;
+    height: 36px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 36px;
+    color: rgb(37, 62, 98);
+    -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.13);
+}
+
+#see-more:hover {
+    cursor: not-allowed;
+}
+
+.project-photo {
+    height: 200px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.13);
+}
+
+img#project1-photo {
+    height: 100%;
+    width: 100%;
+}
+
+img#project2-photo {
+    height: 100%;
+    width: 100%;
+}
+
+img#project3-photo {
+    height: 100%;
+    width: 100%;
+}
+
+img#project4-photo {
+    height: 100%;
+    width: 100%;
+}
+
+.project-title {
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 17px;
+}
+
+.project-date {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 14px;
+}
+.project-text {
+    background-color: rgb(192, 206, 226);
+    font-family: "Lato";
+    padding: 6px;
+}
+
+div#third-separator {
+    position: relative;
+    height: 3px;
+}
+
+div#view4-top-decorator {
+    background-color: rgb(21, 43, 21);
+    z-index: 2;
+}
+
+div#view4 {
+    background-image: url('../img/agsquare2.png');
+}
+
+div#view4-section {
+    /* height: 100%; */
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+div#view4 {
+    height: 500px;
+}
+
+div#contact-title {
+    font-family: "Roboto";
+    font-size: 36px;
+    letter-spacing: 7px;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    position: relative;
+    top: -80px;
+    left: 100px;
+}
+
+div#contact-section {
+    height: 300px;
+    position: relative;
+    top: -30px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-bubble {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    transition: 0.5s;
+}
+
+.contact-bubble-main {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    border: 3px solid rgb(61, 76, 61);
+    border-radius: 130px;
+    -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.13);
+    z-index: 2;
+    background-color: white;
+}
+
+img.contact-icon {}
+
+img#email-icon {
+    position: relative;
+    top: 13px;
+}
+
+.contact-text {
+    font-family: "Lato";
+    color: rgb(26, 69, 25);
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    top: 10px;
+    position: relative;
+}
+
+.contact-stem {
+    position: absolute;
+    width: 3px;
+    height: 70px;
+    background-color: rgb(127, 142, 127);
+    left: 100px;
+    top: -70px;
+    z-index: 0;
+    transition: 0.5s;
+}
+
+div#contact-title {
+    z-index: 3;
+}
+
+img#github-icon {
+    height: 110px;
+    position: relative;
+    top: 9px;
+}
+
+img#linkedin-icon {
+    height: 80px;
+    position: relative;
+    top: 24px;
+}
+
+div#view5 {
+    background-image: url('../img/agsquare2.png');
+    height: 500px;
+}
+
+div#fourth-separator {
+    height: 3px;
+    position: relative;
+}
+
+div#view5-top-decorator {
+    background-color: rgb(68, 18, 7);
+    z-index: 2;
+}
+
+div#footer {
+    background-color: rgb(53, 19, 16);
+    color: rgb(238, 232, 226);
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 12px;
+    border: 2px solid rgb(238, 232, 226);
+    /* position: relative; */
+}
+
+div#resume-title {
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: lighter;
+    letter-spacing: 7px;
+    position: relative;
+    top: -85px;
+    left: 190px;
+    color: rgb(255, 255, 255);
+    z-index: 3;
+}
+
+div#resume-download {
+    width: 300px;
+    height: 170px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.44);
+    border: 3px solid rgba(195, 87, 40, 0.73);
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.13);
+    top: 25px;
+}
+img#resume-download-icon {
+    position: relative;
+    top: 15px;
+    height: 130px;
+}
+
+.resume-download-stem {
+    display: inline-block;
+    width: 3px;
+    height: 150px;
+    position: absolute;
+    background-color: rgb(208, 154, 107);
+    top: -150px;
+    z-index: 0;
+}
+div#left-stem {
+    left: 48px;
+}
+
+div#right-stem {
+    right: 48px;
+}
+
+.nav-text {
+    font-family: "Lato";
+    font-size: 14px;
+    position: relative;
+    left: -70px;
+    top: -20px;
+    color: rgb(55, 20, 17);
+    font-weight: bold;
+    /*display: none;*/
+    opacity: 0;
+}
+
+div#projects-nav-text {
+    left: -80px;
+}
+
+div#contact-nav-text {
+    left: -80px;
+}
+
+div#resume-nav-text {
+    left: -75px;
+}
+
+.active-nav-text {
+    transition: 0.6s;
+    opacity: 1;
+}
+
+div#active-spine {
+    width: 4px;
+    height: 110%;
+    position: fixed;
+    left: 10%;
+    background-color: rgb(237, 114, 105);
+    top: -100%;
+    transition: 0.5s;
+}
+
+.nav-item:hover {
+    height: 60px;
+    width: 60px;
+    transition: 0.3s;
+}
+
+.nav-item:hover .nav-text{
+    opacity: 1;
+    transition: 0.3s;
+};
+
+.nav-item:hover .img-scaled{
+    height: 73%;
+    transition: 0.3s;
+};
+
+.nav-item:hover .about-item{
+    top: 23%;
+    transition: 0.3s;
+};
+
+.project:hover {
+    cursor: pointer;
+}
+
+.contact-bubble:hover {
+    cursor: pointer;
+}
+
+.project-desc {
+    position: relative;
+    text-align: center;
+    height: 135px;
+    z-index: 4;
+    top: -100%;
+    font-family: "Lato";
+    color: white;
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 15px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color: rgba(40, 26, 26, 0.8);
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.project-desc:hover {
+    opacity: 1;
+}
+
+a {
+    text-decoration:  none;
+}
+
+
